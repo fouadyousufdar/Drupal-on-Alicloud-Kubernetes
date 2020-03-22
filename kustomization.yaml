@@ -1,0 +1,8 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=****
+resources:
+  - mysql-persistentVolume-deployment.yaml
+  - drupal-persistentVolume-deployment.yaml
+  - static-pvc.yaml
